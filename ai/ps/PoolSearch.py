@@ -1,5 +1,4 @@
 import random
-import ObjectFunction
 import copy
 import operator
 import heapq
@@ -181,7 +180,7 @@ def calc_rts(map_data, camp, times=1000):
 if __name__ == '__main__':
 	#global p1, p2
 	#p1, p2 = 0.7, 0.3
-
+	import ObjectFunction
 	for k, v in ObjectFunction.TestFunctions.iteritems():
 		sol = calc(v)
 		print 'function name: %40s,\tobject value: %.2f,\tsolution is: %s' % (k, sol[0], sol[1])
